@@ -8,23 +8,7 @@ const todoLimit = `limit=10`;
 
 export default class Home extends Component {
     state = {
-        todos: [
-            // {
-            //     id: 1,
-            //     title: 'one todo',
-            //     completed: false
-            // },
-            // {
-            //     id: 2,
-            //     title: 'two todo',
-            //     completed: false
-            // },
-            // {
-            //     id: 3,
-            //     title: 'three todo',
-            //     completed: false
-            // },
-        ]
+        todos: []
     }
 
     componentDidMount() {

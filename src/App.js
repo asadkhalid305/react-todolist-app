@@ -7,13 +7,13 @@ import Home from './view/home/Home'
 
 function App() {
   return (
-    <div id="App">
-      <Router>
+    <Router>
+      <div id="App">
         <Header />
         <Route exact path="/" render={(props) => <Home />} />
         <Route path="/about/" render={(props) => <About />} />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
