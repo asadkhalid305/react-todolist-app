@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import About from '../../about/About'
-// import Todos from '../../todos/Todos'
+
 import './Style.css'
 
 export default function Header() {
